@@ -24,9 +24,9 @@ export const GetStarted = () => {
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link
             className="text-sm font-medium hover:underline underline-offset-4"
-            href="/login"
+            href="/signin"
           >
-            Login
+            Sign In
           </Link>
         </nav>
       </header>
