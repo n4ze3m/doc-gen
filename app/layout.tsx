@@ -9,8 +9,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "DocGen - Generate document with AI",
   description: "Document Generation with AI",
+  icons: {
+    icon: "/logo.png",
+  },
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
